@@ -12,7 +12,7 @@ The provided code implements the PandorasBox algorithm, a method for optimizing 
 
 1. **`calc_reservation_value(D_i, c_i)`:**
     - **Input:** 
-        - `D_i`: List representing the distribution of rewards (session durations) for a specific therapist.
+        - `D_i`: List representing the distribution of rewards for a specific therapist.
         - `c_i`: The associated cost (appointment fee) for the therapist.
     - **Output:** 
         - `r`: The calculated reservation value for the therapist.
