@@ -4,7 +4,7 @@
 
 ### Summary
 
-The provided code implements the PandorasBox algorithm, a method for optimizing therapist selection based on the distribution of rewards (session durations) and associated costs (appointment fees). This algorithm employs a binary search technique to determine the reservation value for each therapist, then strategically selects therapists based on their reservation values and the distribution of rewards.
+The provided code implements the Pandora's Box algorithm, a method for optimizing therapist selection based on the distribution of rewards (session durations) and associated costs (appointment fees). This algorithm employs a binary search technique to determine the reservation value for each therapist, then strategically selects therapists based on their reservation values and the distribution of rewards.
 
 ---
 
@@ -24,7 +24,7 @@ The provided code implements the PandorasBox algorithm, a method for optimizing 
         - `c`: List of associated costs for each therapist.
     - **Output:** 
         - `considered_therapists`: List of tuples representing the selected therapists, their rewards, and appointment types.
-    - This function implements the PandorasBox algorithm to select therapists based on their reservation values and the distribution of rewards and costs.
+    - This function implements the Pandora's Box algorithm to select therapists based on their reservation values and the distribution of rewards and costs.
     - It initializes variables and structures necessary for the algorithm.
     - For each therapist, it calculates the reservation value using `calc_reservation_value()`.
     - It then sorts therapists based on their reservation values in descending order.
@@ -43,7 +43,7 @@ The provided code implements the PandorasBox algorithm, a method for optimizing 
 
 ### Usage
 
-To use the PandorasBox algorithm for therapist selection, follow these steps:
+To use the Pandora's Box algorithm for therapist selection, follow these steps:
 1. Define the distributions of rewards (`D`) and associated costs (`c`) for each therapist.
 2. Call the `solve_pandoras_box()` function with the distributions and costs as arguments.
 3. The function will return a list of selected therapists along with their rewards.
